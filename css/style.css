@@ -252,9 +252,21 @@ p {
 /* Features */
 
 /* Devices */
+.devices .col {
+  width: 100%;
+  text-align: center;
+}
+
 .devices .col img {
   width: 100%;
 }
+
+@media (min-width: 992px) {
+  .devices .col img {
+    width: 80%;
+  }
+}
+
 /* Devices */
 
 /* Workflow */
